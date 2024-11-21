@@ -10,3 +10,6 @@
 
 - [http.cat](https://http.cat/)
 - [Mongo Atlas](https://www.mongodb.com/products/platform/atlas-database)
+
+### Aula 3: Conectando sua API ao MongoDB: Estrutura, Conexão e Refatoração
+

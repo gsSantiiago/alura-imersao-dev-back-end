@@ -9,7 +9,7 @@ $ npm install express
 ```
 
 ```bash
-$ npm install mongodb@5.5
+$ npm install mongodb
 ```
 
 # Execute
