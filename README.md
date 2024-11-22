@@ -14,8 +14,12 @@
 ### Aula 3: Conectando sua API ao MongoDB: Estrutura, Conexão e Refatoração
 
 ### Aula 4: Implementando Armazenamento e Upload de Imagens
+
 - Thunder Client
 - REST Client
 - REST Client Api
 
 ### Aula 5: Publicando na Google Cloud: Configuração de API e Integração com Gemini
+
+- [Documentação Google Cloud](https://cloud.google.com/docs?hl=pt-br)
+- http://goo.gle/geminidevbackend

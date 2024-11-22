@@ -24,6 +24,10 @@ $ npm install @google/generative-ai
 $ npm install cors
 ```
 
+```bash
+$ npm install dotenv
+```
+
 # Execute
 
 ```bash
