@@ -5,6 +5,7 @@ Content-Type: application/json
 
 POST http://localhost:3000/posts
 Content-Type: application/json
+
 {
     "descricao": "Gato Post",
     "imgUrl": "https://placecats.com/millie/300/150",
@@ -22,5 +23,19 @@ Content-Type: image/png
 
 < ./images/cat1.png
 --MfnBoundry--
+
+###
+
+PUT  http://localhost:3000/upload/674108fdb5ce4a95b79e0a9f
+Content-Type: application/json
+
+{
+    "descricao": "Meu gato teste",
+    "alt": "Foto do gatinho"
+}
+
+###
+
+GET http://localhost:3000/674108fdb5ce4a95b79e0a9f.png
 
 ###

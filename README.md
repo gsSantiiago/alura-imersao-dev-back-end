@@ -17,3 +17,5 @@
 - Thunder Client
 - REST Client
 - REST Client Api
+
+### Aula 5: Publicando na Google Cloud: Configuração de API e Integração com Gemini
