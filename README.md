@@ -13,3 +13,7 @@
 
 ### Aula 3: Conectando sua API ao MongoDB: Estrutura, Conexão e Refatoração
 
+### Aula 4: Implementando Armazenamento e Upload de Imagens
+- Thunder Client
+- REST Client
+- REST Client Api

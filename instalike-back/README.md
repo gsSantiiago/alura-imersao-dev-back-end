@@ -12,6 +12,10 @@ $ npm install express
 $ npm install mongodb
 ```
 
+```bash
+$ npm install multer
+```
+
 # Execute
 
 ```bash
@@ -21,4 +25,4 @@ $ node --watch server.js
 # Routes
 
 - [/posts](http://localhost:3000/posts)
-- [/posts/1](http://localhost:3000/posts/1)
+- [/upload](http://localhost:3000/upload)
