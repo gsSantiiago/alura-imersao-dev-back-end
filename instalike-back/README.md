@@ -20,6 +20,10 @@ $ npm install multer
 $ npm install @google/generative-ai
 ```
 
+```bash
+$ npm install cors
+```
+
 # Execute
 
 ```bash
