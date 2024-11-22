@@ -16,6 +16,10 @@ $ npm install mongodb
 $ npm install multer
 ```
 
+```bash
+$ npm install @google/generative-ai
+```
+
 # Execute
 
 ```bash

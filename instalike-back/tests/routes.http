@@ -26,16 +26,40 @@ Content-Type: image/png
 
 ###
 
-PUT  http://localhost:3000/upload/674108fdb5ce4a95b79e0a9f
+PUT  http://localhost:3000/upload/67410d898569c7e88078f0c8
 Content-Type: application/json
 
 {
-    "descricao": "Meu gato teste",
     "alt": "Foto do gatinho"
 }
 
 ###
 
-GET http://localhost:3000/674108fdb5ce4a95b79e0a9f.png
+GET http://localhost:3000/67410d898569c7e88078f0c8.png
+
+###
+
+POST http://localhost:3000/upload
+Content-Type: multipart/form-data; boundary=MfnBoundry
+
+--MfnBoundry
+Content-Disposition: form-data; name="imagem"; filename="image.png"
+Content-Type: image/png
+
+< ./images/city1.png
+--MfnBoundry--
+
+###
+
+PUT  http://localhost:3000/upload/67410ec98569c7e88078f0c9
+Content-Type: application/json
+
+{
+    "alt": "Foto da cidade"
+}
+
+###
+
+GET http://localhost:3000/67410ec98569c7e88078f0c9.png
 
 ###
